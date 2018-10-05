@@ -1,0 +1,64 @@
+// 
+// main page styles
+//
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+//
+// page wrapper
+//
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    // background: #161616;
+}
+//
+// items container
+//
+.container {
+    position: relative;
+    top: 24rem;
+}
+//
+//list styles
+//
+.main__list {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+//
+//list item state styles
+//
+.list__item {
+    width: calc( 100% - 1rem -1px);
+    height: 2rem;
+    border: 1px solid #333333;
+    margin: .25rem 0;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &--checked {
+        background-color: aquamarine;
+        color: tomato;
+    }
+}
+
+.list__text {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: .5rem;
+}
