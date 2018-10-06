@@ -79,7 +79,7 @@ function createLi(text) {
     const edit = document.createElement('button');
     edit.textContent ='edit';    
     edit.classList ='buttons__edit';
-    
+
     buttons.appendChild(edit);
 
     // Adding remove button to list item
